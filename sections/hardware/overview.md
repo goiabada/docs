@@ -1,4 +1,4 @@
-# Hardware specifications
+# GBA hardware overview
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut nunc euismod justo placerat aliquam vitae eget sem. Nam id justo vel lacus semper fringilla nec non elit. Etiam tristique fringilla neque faucibus imperdiet. In ultrices nec dolor et semper. Nam sed leo congue, ullamcorper urna at, posuere leo. Nulla gravida sit amet dui at porttitor. Etiam eget velit vel turpis dictum rhoncus vitae eget justo. Donec venenatis nulla pulvinar massa porttitor, sit amet blandit diam gravida.
 
