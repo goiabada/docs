@@ -1,7 +1,19 @@
-# GBA hardware overview
+## GBA hardware overview
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut nunc euismod justo placerat aliquam vitae eget sem. Nam id justo vel lacus semper fringilla nec non elit. Etiam tristique fringilla neque faucibus imperdiet. In ultrices nec dolor et semper. Nam sed leo congue, ullamcorper urna at, posuere leo. Nulla gravida sit amet dui at porttitor. Etiam eget velit vel turpis dictum rhoncus vitae eget justo. Donec venenatis nulla pulvinar massa porttitor, sit amet blandit diam gravida.
+#### System Overview
 
-- In vestibulum eros nec sem vulputate dapibus. Ut bibendum risus nibh, a bibendum metus vestibulum ac. Sed accumsan feugiat leo eget feugiat. Donec massa neque, maximus dictum elementum eu, aliquet vel mauris. Suspendisse bibendum enim non dolor tincidunt vulputate eu ac velit. Quisque tristique nulla nec eros luctus pretium sed ac lectus. Nulla commodo facilisis ligula. Cras fermentum neque dolor, sit amet vehicula nisl dignissim non. In sit amet dignissim lacus. Quisque placerat diam id sodales sodales. Cras luctus mauris mattis, egestas dui et, sodales sapien. Ut sit amet tincidunt eros, a mattis massa. In hac habitasse platea dictumst. Aliquam neque nisi, consectetur sit amet viverra ac, pellentesque et ligula.
-  
-- Donec mollis nisl sapien, vel commodo nunc convallis eget. In et imperdiet urna, nec vehicula tellus. Integer sit amet sapien sem. Sed non sem et augue imperdiet semper at eget mauris. Donec eleifend sed neque ac ullamcorper. Aenean eget ipsum eget tellus consectetur elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer eu augue id sapien sodales viverra eget et quam. Proin dui tortor, sodales ut nunc in, commodo fringilla eros. Nullam ut augue nec nulla malesuada consequat non vel risus. Proin luctus faucibus lectus, sed consectetur eros ultrices tristique. Vivamus nulla tortor, bibendum ut leo at, efficitur tempor eros. Ut a mauris at nibh gravida iaculis ac sed diam.
+- **CPU:** 32-bit RISC CPU (ARM7TDMI)/16.78 MHz
+- **Second CPU:** 8-bit CISC CPU for GBC compatibility
+- **Memory**
+  - **System ROM:** 16Kbytes + 2Kbytes for GBC
+  - **Working RAM:** 32 Kbytes + CPU External 256 Kbytes
+  - **VRAM:** 96 Kbytes
+  - **OAM:** 64 bits x 128
+  - **Pallete RAM**: 16 bits x 512 (256 colors for OBJ, 256 colors for BG)
+  - **Game Pak:** Up to 512 Kbits: SRAM or flash memory
+- **Display:** 240 x 160, with 32,768 colors simultaneously displayable
+- **Sound:** 4 sounds (corresponding to GBC sounds) + 2 CPU direct sounds (PCM format)
+
+#### Retrocompatibility
+- The Game Boy Advance incorporated the original Z80 CPU from the old Game Boy Color, providing complete backward compatibility with all previous gameboy games.
+- The GBA auto-detects the type of cartridge that has been inserted and either boots up the ARM7 or the Z80 CPU
