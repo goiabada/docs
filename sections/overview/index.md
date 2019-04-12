@@ -29,3 +29,4 @@
 You can dedicated sections below:
 1. [Memory Architecture](https://goiabada.github.io/docs/sections/overview/memory)
 2. [Processor](https://goiabada.github.io/docs/sections/overview/processor)
+3. [Graphics System](https://goiabada.github.io/docs/sections/overview/graphics)
