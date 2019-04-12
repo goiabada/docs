@@ -56,3 +56,6 @@
 #### Object Atribute Memory
 - This is where we store the attributes of what sprite should be displayed, how and where.
 - The actual data comes from the **VRAM**, but the rest comes form the **OAM**.
+
+
+[Go back](https://goiabada.github.io/docs/sections/overview/index)

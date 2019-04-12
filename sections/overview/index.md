@@ -26,5 +26,6 @@
 - Making necessary for the running programs (games) to incorporate all the code necessary to display on the screen, play music and detect user input.
 - Since we can't use interrupts since it does not have an OS, all operations must write a specific value to specific memory address to make things happen.
 
-1. [Memory Architecture](https://goiabada.github.io/docs/sections/hardware/memory)
-2. [Processor](https://goiabada.github.io/docs/sections/hardware/processor)
+You can dedicated sections below:
+1. [Memory Architecture](https://goiabada.github.io/docs/sections/overview/memory)
+2. [Processor](https://goiabada.github.io/docs/sections/overview/processor)
