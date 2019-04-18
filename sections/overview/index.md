@@ -21,7 +21,7 @@
 
 ### Hardware Access
 
-- The GBA architecture is similar to a PC in many ways. Both have one or more processors, RAM, a digital signal processor (DSP), a motherboar and a BIOS (Basic Input/Output System) that causes the hardware to boot up.
+- The GBA architecture is similar to a PC in many ways. Both have one or more processors, RAM, a digital signal processor (DSP), a motherboard and a BIOS (Basic Input/Output System) that causes the hardware to boot up.
 - The GBA has no operating system, thus it controls the hardware at the lowest level.
 - Making necessary for the running programs (games) to incorporate all the code necessary to display on the screen, play music and detect user input.
 - Since we can't use interrupts since it does not have an OS, all operations must write a specific value to specific memory address to make things happen.

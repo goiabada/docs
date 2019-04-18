@@ -1,6 +1,6 @@
 ## The Graphics System
 
-- The GBA refresh rate equates do 280,896 clock cycles per frame (the time it takes to display the entire video buffer) which equals to **59.73 Hz**, our maximum frame rate.
+- The GBA refresh rate equates to 280,896 clock cycles per frame (the time it takes to display the entire video buffer) which equals to **59.73 Hz**, our maximum frame rate.
 - Any game that claims to achieve more than 60 FPS is **simply subframing the display**, which may have practical uses for special effects.
 - There are three tile-based modes that resemble the previous Game Boy graphics system, plus new three bitmap-based modes that provide more _creative freedom_ with games.
 
