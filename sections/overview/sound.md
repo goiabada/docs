@@ -8,3 +8,5 @@
 
 > A sound mixer allows multiple sounds to be played at once
 > Without a mixer, it's only possible to reproduce one sound at a time, called **async playback** 
+
+[Go back](https://goiabada.github.io/docs/sections/overview/index)

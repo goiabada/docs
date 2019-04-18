@@ -1,4 +1,6 @@
-theme: jekyll-theme-minimal
+title: goiabada/docs
+description: Containing all sweet info about Goiabada's projects
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links
 relative_links:
