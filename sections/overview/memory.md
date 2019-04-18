@@ -1,4 +1,5 @@
 ## Memory Architecture
+
 | Memory Type | Access Widths | Description                                                                                      |
 | ----------- | ------------- | ------------------------------------------------------------------------------------------------ |
 | IWRAM       | 8, 16, 32     | 32 KB "internal" working RAM. Typically used for fast scratchpad RAM and for time-critical code. |
