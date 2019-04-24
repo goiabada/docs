@@ -28,6 +28,8 @@
     - 0E000000-0E00FFFF Game Pak SRAM (max 64 KBytes) - 8bit Bus width
     - 0E010000-0FFFFFFF Not used
 
+> Regarding the **GamePak ROM** memory: the access speed of each aforementioned sections can be set individually, thus they are named **Wait State 0**, **Wait State 1** and **Wait State 2**. This specifications enables the optional use of the ROM by varying the access speed.
+
 ### Unused Memory Area
 
     - 10000000-FFFFFFFF Not used (upper 4bits of address bus unused)
@@ -56,3 +58,7 @@
 > XX - Default waitstate settings, see System Control chapter.
 
 > XXX - Separate timings for sequential, and non-sequential accesses.
+
+> **Note on performance:** As the GamePak bus is limited to 16 bits, executing ARM instrucions (which has 32-bit opcodes) from inside of the ROM would eventually result in a not so good performance. It's reccomended to use THUMB instructions (16-bit each) so each opcode can be read at once.
+
+[Go back](https://goiabada.github.io/docs/sections/memory/index)
