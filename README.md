@@ -6,4 +6,5 @@ Our first and currently running project is [Goiaba](https://github.com/goiabada/
 
 You can find more about the specifics in one of the sections below:
 
-1. [GBA overview](https://goiabada.github.io/docs/sections/overview/index)
+1. [GBA Overview](https://goiabada.github.io/docs/sections/overview/index)
+2. [GBA Memory Information](https://goiabada.github.io/docs/sections/memory/index)
