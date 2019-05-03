@@ -1,6 +1,6 @@
 ## Game Pak Memory Wait Control
 
-- Although the 32 MB Game Pak memory space is mapped form **08000000h** onward, the 32 MB spaces beggining from **0A000000h** and **0C000000h** **are images** of the 32 MB space that starts at **08000000h**
+- Although the 32 MB Game Pak memory space is mapped from **08000000h** onward, the 32 MB spaces beggining from **0A000000h** and **0C000000h** **are images** of the 32 MB space that starts at **08000000h**
 
 - These images enable memory to be used **according the access speed of the Game Pak memory** (1-4 wait cycles)
 
@@ -35,6 +35,5 @@
   - The relation between the wait control settings and wait cycles is as follows:
 
 ![Game Pack RAM Wait Control](/images/gpk_ram_wait_control.png)
-
 
 [Go back](https://goiabada.github.io/docs/sections/memory/index)
