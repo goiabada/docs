@@ -36,3 +36,31 @@
   - "**Undefined**" refers to the **Undefined Mode**. You can find more about it [here](https://www.heyrick.co.uk/armwiki/Processor_modes#Undefined_mode)
 
 > IRQ's (Interrupt Requests) are "normal" types of interrupts. FIQ's (Fast Interrupt Requests) are an feature that software can optionally use to increase the speed and/or priority of interrupts from a specific source.
+
+## R0-R12 Registers
+
+- General purpose registers.
+- Each one has the same functionality and performance (there is no *fast accumulator* nor *special point register*).
+- **THUMB** mode only allows **R0-R7** (Lo registers) to be accessed freely, while **R8-R12** (Hi registers) can only be accessed by some instructions.
+
+## R13 Register
+
+- Is used as a **Stack Pointer** (SP) in **THUMB state**.
+- In **ARM state**, it can be used as a stack pointer or as a general purpose register.
+- As shown in the table above, there is one R13 register for each mode. When it's used as a SP, each exception handler **must** use it's own stack.
+
+## R14 Register
+
+- Is used as a **Link Register** (LR).
+- Which means that, when calling to a sub-routine by a branch with link (BL) instruction, the return address is saved to this register.
+- Storing the return address in the LR is faster than pushing it into memory, but as there is only one LR register for each mode, the user must it's content before issuing 'nested' subroutines.
+
+## R15 Register
+
+- Is **always** used as a **Program Counter** (PC).
+- When reading R15, a value of `PC+nn` will be returned due to the **read-ahead** (pipelining). The `nn` will depend on the instruction and on the CPU state (ARM or THUMB)
+
+## CPSR and SPSR (Program Status Registers) 
+
+- The flags and CPU control bits are stored on the CPSR register.
+- When an exception rises, the old CPSR is saved in the SPSR of the respective exception-mode.
