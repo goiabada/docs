@@ -6,12 +6,10 @@
 
 1. [ARM CPU Register Set](https://goiabada.github.io/docs/sections/arm-cpu/register-set)
 2. [ARM CPU Flags](https://goiabada.github.io/docs/sections/arm-cpu/flags)
-3. [ARM CPU Memory Interface](https://goiabada.github.io/docs/sections/arm-cpu/memory-interface)
-4. [ARM CPU Exceptions](https://goiabada.github.io/docs/sections/arm-cpu/exceptions)
-5. [ARM CPU Memory Alignments](https://goiabada.github.io/docs/sections/arm-cpu/memory-alignments)
-6. [ARM 32bit Instruction Set (ARM Code)](https://goiabada.github.io/docs/sections/arm-cpu/arm-code)
-7. [ARM 16bit Instruction Set (THUMB Code)](https://goiabada.github.io/docs/sections/arm-cpu/thumb-code)
-8. [Extra info](https://goiabada.github.io/docs/sections/arm-cpu/extra)
+3. [ARM CPU Exceptions](https://goiabada.github.io/docs/sections/arm-cpu/exceptions)
+4. [ARM 32bit Instruction Set (ARM Code)](https://goiabada.github.io/docs/sections/arm-cpu/arm-code)
+5. [ARM 16bit Instruction Set (THUMB Code)](https://goiabada.github.io/docs/sections/arm-cpu/thumb-code)
+6. [Extra info](https://goiabada.github.io/docs/sections/arm-cpu/extra)
 
 ## General information
 
