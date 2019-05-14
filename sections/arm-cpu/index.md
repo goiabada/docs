@@ -9,7 +9,6 @@
 3. [ARM CPU Exceptions](https://goiabada.github.io/docs/sections/arm-cpu/exceptions)
 4. [ARM 32bit Instruction Set (ARM Code)](https://goiabada.github.io/docs/sections/arm-cpu/arm-code)
 5. [ARM 16bit Instruction Set (THUMB Code)](https://goiabada.github.io/docs/sections/arm-cpu/thumb-code)
-6. [Extra info](https://goiabada.github.io/docs/sections/arm-cpu/extra)
 
 ## General information
 
@@ -66,3 +65,5 @@
 - Beside for the above manual state switching by using BX instructions, the following situations involve automatic state changes:
   - CPU switches to ARM state when executing an exception
   - User switches back to old state when leaving an exception
+
+[Go back](https://goiabada.github.io/docs/)
