@@ -9,3 +9,4 @@ You can find more about the specifics in one of the sections below:
 1. [GBA Overview](https://goiabada.github.io/docs/sections/overview/index)
 2. [GBA Memory Information](https://goiabada.github.io/docs/sections/memory/index)
 3. [GBA I/O Mapping](https://goiabada.github.io/docs/sections/io/map)
+4. [ARM CPU](https://goiabada.github.io/docs/sections/arm-cpu/index)
